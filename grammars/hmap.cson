@@ -1,0 +1,13 @@
+scopeName: 'source.hmap'
+name: 'Hmap'
+fileTypes: ['hmap']
+patterns: [
+  {
+    match: '\\b[0-9]+\\b'
+    name: 'constant.numeric.hmap'
+  },
+  {
+    match: 'for'
+    name: 'keyword.control.js'
+  }
+]
